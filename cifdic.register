@@ -1,4 +1,12 @@
-data_validation_dictionaries 
+data_validation_dictionaries
+
+##############################################################################
+#
+# This is a register of CIF dictionaries archived on the IUCr site
+# https://cif-dictionaries.iucr.org/
+#
+##############################################################################
+
   loop_
     _cifdic_dictionary.name
     _cifdic_dictionary.version
@@ -6,258 +14,252 @@ data_validation_dictionaries
     _cifdic_dictionary.reserved_prefix
     _cifdic_dictionary.date
     _cifdic_dictionary.URL
+    _cifdic_dictionary.DOI
+    _cifdic_dictionary.resource_type
     _cifdic_dictionary.description
 
 ##############################################################################
 # COMCIFS approved dictionaries                                              #
 ##############################################################################
-  cif_core.dic    .    1.4.1   .    .
-      ftp://ftp.iucr.org/pub/cifdics/cif_core.dic
-      'Core CIF Dictionary'
+
   cif_core.dic   1.0   .   .    1991-09-20
-      ftp://ftp.iucr.org/pub/cifdics/cifdic.C91
+      https://cif-dictionaries.iucr.org/cifdic/dic/cifdic.C91 .
+      dictionary
       'Original Core CIF Dictionary'
   cif_core.dic   2.0   1.4   .    1996-11-27
-      ftp://ftp.iucr.org/pub/cifdics/cifdic.C94
+      https://cif-dictionaries.iucr.org/cifdic/dic/cifdic.C94 .
+      dictionary
       'Original Core CIF Dictionary'
   cif_core.dic  2.0.1  1.4   .    1997-01-20
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.0.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.0.1.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.1    1.4   .     1999-03-24
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.1.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.2    1.4   .     2001-01-11
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.2.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.2.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.3    1.4   .     2003-10-04
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.3.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.3.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.3.1  1.4.1   .     2005-06-27
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.3.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.3.1.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4  1.4.1   .     2008-03-10
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4.1  1.4.1   .     2010-06-29
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.1.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4.2  1.4.1   .     2011-04-26
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.2.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.2.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4.3  1.4.1   .     2012-05-16
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.3.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.3.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4.4  1.4.1   .     2014-05-20
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.4.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.4.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  2.4.5  1.4.1   .     2014-11-21
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_2.4.5.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_2.4.5.dic .
+      dictionary
       'Core CIF Dictionary'
   cif_core.dic  3.2.0  4.1.0   .     2023-05-30
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_3.2.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_3.2.0.dic
+      https://doi.org/10.1107/cifdic_000002
+      dictionary
       'Core CIF Dictionary'
-  cif_core.dic  3.3.0  4.1.0   .     2023-07-13
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_3.3.0.dic
-      'Core CIF Dictionary'
-  cif_core_restraints.dic  .  1.4.1   .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_restraints.dic
-      'Core CIF extension Dictionary of restraints and constraints'
   cif_core_restraints.dic  1.0  1.4.1   .     2011-03-09
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_restraints_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_restraints_1.0.dic .
+      dictionary
       'Core CIF extension Dictionary of restraints and constraints'
-  cif_core_multiblock.dic  1.0.0  4.2.0   .    2024-01-20 
-      ftp://ftp.iucr.org/pub/cifdics/cif_core_multiblock.dic
+  cif_core_multiblock.dic  1.0.0  4.2.0   .    2024-01-20
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_core_multiblock_1.0.0.dic
+      https://doi.org/10.1107/cifdic_000004
+      dictionary
       'Multiblock CIF Core Dictionary'
-  cif_pd.dic     .     1.4   .    .
-      ftp://ftp.iucr.org/pub/cifdics/cif_pd.dic
-      'Powder CIF Dictionary'
   cif_pd.dic    1.0    1.4   .    1997-10-29
-      ftp://ftp.iucr.org/pub/cifdics/cif_pd_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_pd_1.0.dic .
+      dictionary
       'Powder CIF Dictionary'
   cif_pd.dic    1.0.1    1.4   .    2005-06-14
-      ftp://ftp.iucr.org/pub/cifdics/cif_pd_1.0.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_pd_1.0.1.dic .
+      dictionary
       'Powder CIF Dictionary'
-  cif_mag.dic    .    3.13.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_mag.dic
-      'Magnetic CIF Dictionary'
-  cif_mag.dic    0.9.7    3.13.1  .     2017-03-23
-      ftp://ftp.iucr.org/pub/cifdics/cif_mag_0.9.7.dic
+  cif_mag.dic    0.9.7    3.11.09  .     2017-03-23
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_mag_0.9.7.dic .
+      dictionary
       'Magnetic CIF Dictionary'
   cif_mag.dic    0.9.8    3.13.1  .     2020-07-28
-      ftp://ftp.iucr.org/pub/cifdics/cif_mag_0.9.8.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_mag_0.9.8.dic .
+      dictionary
       'Magnetic CIF Dictionary'
-  cif_ms.dic     .     1.4   .    .
-      ftp://ftp.iucr.org/pub/cifdics/cif_ms.dic
-      'Modulated structures CIF Dictionary'
   cif_ms.dic    1.0    1.4   .    2002-03-04
-      ftp://ftp.iucr.org/pub/cifdics/cif_ms_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_ms_1.0.dic .
+      dictionary
       'Modulated structures CIF Dictionary'
   cif_ms.dic    1.0.1    1.4   .    2005-06-16
-      ftp://ftp.iucr.org/pub/cifdics/cif_ms_1.0.1.dic
-      'Modulated structures CIF Dictionary'
-  cif_rho.dic     .     1.4   .    .
-      ftp://ftp.iucr.org/pub/cifdics/cif_rho.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_ms_1.0.1.dic .
+      dictionary
       'Modulated structures CIF Dictionary'
   cif_rho.dic    1.0    1.4   .    2003-08-19
-      ftp://ftp.iucr.org/pub/cifdics/cif_rho_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_rho_1.0.dic .
+      dictionary
       'Electron density CIF Dictionary'
   cif_rho.dic    1.0.1    1.4   .    2005-06-14
-      ftp://ftp.iucr.org/pub/cifdics/cif_rho_1.0.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_rho_1.0.1.dic .
+      dictionary
       'Electron density CIF Dictionary'
-  cif_mm.dic     .    2.1.2  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_mm.dic
-      'Macromolecular CIF Dictionary'
-  cif_mm.dic    1.0   2.1.2  .     1997-10-14
-      ftp://ftp.iucr.org/pub/cifdics/cif_mm_1.0.dic
+  cif_mm.dic    1.0.00   2.1.2  .     1997-10-14
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_mm_1.0.dic .
+      dictionary
       'Macromolecular CIF Dictionary'
   cif_mm.dic    2.0.03   2.1.3  .     2000-11-09
-      ftp://ftp.iucr.org/pub/cifdics/cif_mm_2.0.03.dic
-      'Macromolecular CIF Dictionary'
-  mmcif_std.dic    .   2.1.6  .     .
-      ftp://ftp.iucr.org/pub/cifdics/mmcif_std.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_mm_2.0.03.dic .
+      dictionary
       'Macromolecular CIF Dictionary'
   mmcif_std.dic    2.0.09   2.1.6  .     2005-06-27
-      ftp://ftp.iucr.org/pub/cifdics/cif_mm_2.0.09.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/mmcif_std_2.0.09.dic .
+      dictionary
       'Macromolecular CIF Dictionary'
-  cif_img.dic     .    2.1.3  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_img.dic
-      'Image CIF Dictionary'
   cif_img.dic    1.0   2.1.3  .     2000-12-21
-      ftp://ftp.iucr.org/pub/cifdics/cif_img_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_img_1.0.dic .
+      dictionary
       'Image CIF Dictionary'
   cif_img.dic    1.3.1   2.1.3  .     2003-08-13
-      ftp://ftp.iucr.org/pub/cifdics/cif_img_1.3.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_img_1.3.1.dic .
+      dictionary
       'Image CIF Dictionary'
   cif_img.dic    1.3.2   2.1.3  .     2005-06-25
-      ftp://ftp.iucr.org/pub/cifdics/cif_img_1.3.2.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_img_1.3.2.dic .
+      dictionary
       'Image CIF Dictionary'
-  cif_sym.dic    .    2.1.3  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_sym.dic
-      'Symmetry CIF Dictionary'
   cif_sym.dic   1.0   2.1.3  .     2001-12-15
-      ftp://ftp.iucr.org/pub/cifdics/cif_sym_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_sym_1.0.dic .
+      dictionary
       'Symmetry CIF Dictionary'
   cif_sym.dic   1.0.1   2.1.3  .     2005-06-17
-      ftp://ftp.iucr.org/pub/cifdics/cif_sym_1.0.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_sym_1.0.1.dic .
+      dictionary
       'Symmetry CIF Dictionary'
-  cif_topology.dic    .    4.1.0  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_topology.dic
-      'Topology CIF Dictionary'
   cif_topology.dic    0.9.1    3.13.1  .     2019-07-17
-      ftp://ftp.iucr.org/pub/cifdics/cif_topology_0.9.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_topology_0.9.1.dic .
+      dictionary
       'Topology CIF Dictionary'
   cif_topology.dic    0.9.6    4.1.0  .     2021-11-16
-      ftp://ftp.iucr.org/pub/cifdics/cif_topology_0.9.6.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_topology_0.9.6.dic .
+      dictionary
       'Topology CIF Dictionary'
-  cif_twinning.dic    .    1.4.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_twinning.dic
-      'Twinning CIF Dictionary'
   cif_twinning.dic   1.0   1.4.1  .     2014-02-14
-      ftp://ftp.iucr.org/pub/cifdics/cif_twinning_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_twinning_1.0.dic .
+      dictionary
       'Twinning CIF Dictionary'
 ##############################################################################
 # Legacy and deprecated dictionaries                                         #
 ##############################################################################
-  cif_compat.dic   .   1.4  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_compat.dic
-      'Legacy CIF Dictionary of deprecated terms'
   cif_compat.dic   1.0   1.4  .     1997-01-22
-      ftp://ftp.iucr.org/pub/cifdics/cif_compat_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_compat_1.0.dic .
+      dictionary
       'Legacy CIF Dictionary of deprecated terms'
 ##############################################################################
 # Private dictionaries (re)distributed by the IUCr                           #
 ##############################################################################
-  cif_iucr.dic   .   1.4.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_iucr.dic
-      'Private data items used by the IUCr in journal publishing'
   cif_iucr.dic   1.0   1.4  .     2003-11-17
-      ftp://ftp.iucr.org/pub/cifdics/cif_iucr_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_iucr_1.0.dic .
+      dictionary
       'Private data items used by the IUCr in journal publishing'
   cif_iucr.dic   1.1   1.4.1  .     2011-06-24
-      ftp://ftp.iucr.org/pub/cifdics/cif_iucr_1.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_iucr_1.1.dic .
+      dictionary
       'Private data items used by the IUCr in journal publishing'
   cif_iucr.dic   1.1.1   1.4.1  .     2011-07-04
-      ftp://ftp.iucr.org/pub/cifdics/cif_iucr_1.1.1.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_iucr_1.1.1.dic .
+      dictionary
       'Private data items used by the IUCr in journal publishing'
   cif_iucr.dic   1.2   1.4.1  .     2014-07-09
-      ftp://ftp.iucr.org/pub/cifdics/cif_iucr_1.2.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_iucr_1.2.dic .
+      dictionary
       'Private data items used by the IUCr in journal publishing'
-  cif_ccdc.dic   .   1.4.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_ccdc.dic
-      'Private data items used by the Cambridge Crystallographic Data Centre'
+
   cif_ccdc.dic   1.3   1.4.1  .     2014-05-12
-      ftp://ftp.iucr.org/pub/cifdics/cif_ccdc_1.3.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_ccdc_1.3.dic .
+      dictionary
       'Private data items used by the Cambridge Crystallographic Data Centre'
 ##############################################################################
 # DDL dictionaries                                                           #
 ##############################################################################
-  ddl1.dic   .   1.4.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/ddl_core.dic
-      'Non-relational dictionary definition language'
-  ddl_core.dic   .   1.4.1  .     .
-      ftp://ftp.iucr.org/pub/cifdics/ddl_core.dic
-      'Non-relational dictionary definition language'
-  ddl_core_1.4.dic   .   1.4  .     1995-05-16
-      ftp://ftp.iucr.org/pub/cifdics/ddldic.c95
-      'Non-relational dictionary definition language'
-  ddl_core_1.4.1.dic   .   1.4.1  .     2005-06-29
-      ftp://ftp.iucr.org/pub/cifdics/ddl_core_1.4.1.dic
-      'Non-relational dictionary definition language'
-  ddl2.dic   .   2.1.6  .     .
-      ftp://ftp.iucr.org/pub/cifdics/mmcif_ddl_2.1.6.dic
-      'Non-relational dictionary definition language'
-  ddl_core_2.1.1.dic   .   2.1.1  .     1995-09-26
-      ftp://ftp.iucr.org/pub/cifdics/ddl2.c96
-      'Relational dictionary definition language'
-  ddl_core_2.1.3.dic   .   2.1.3  .     2000-10-16
-      ftp://ftp.iucr.org/pub/cifdics/ddl_core_2.1.3.dic
-      'Relational dictionary definition language'
-  ddl_core_2.1.6.dic   .   2.1.6  .     2004-04-15
-      ftp://ftp.iucr.org/pub/cifdics/mmcif_ddl_2.1.6.dic
-      'Relational dictionary definition language'
-  mmcif_ddl.dic   .   2.1.6  .     .
-      ftp://ftp.iucr.org/pub/cifdics/mmcif_ddl.dic
-      'Relational dictionary definition language'
-  mmcif_ddl_2.1.6.dic   .   2.1.6  .     2004-04-15
-      ftp://ftp.iucr.org/pub/cifdics/mmcif_ddl_2.1.6.dic
-      'Relational dictionary definition language'
-  DDLm.dic   .   .  .     .
-      ftp://ftp.iucr.org/pub/cifdics/DDLm.dic
-      'Methods dictionary definition language'
-  DDLm.dic   3.11.09   3.11.09  .     2015-05-07
-      ftp://ftp.iucr.org/pub/cifdics/DDLm_3.11.09.dic
-      'Methods dictionary definition language'
-  DDLm.dic   3.14.0   3.14.0  .     2019-09-25
-      ftp://ftp.iucr.org/pub/cifdics/DDLm_3.14.0.dic
-      'Methods dictionary definition language'
-  DDLm.dic   4.1.0   4.1.0  .     2023-01-13
-      ftp://ftp.iucr.org/pub/cifdics/DDLm_4.1.0.dic
-      'Methods dictionary definition language'
+
+  ddl_core.dic   1.4   1.4  .     1995-05-16
+      https://cif-dictionaries.iucr.org/cifdic/dic/ddldic.c95 .
+      dictionary
+      'DDL1 Non-relational dictionary definition language'
+  ddl_core.dic   1.4.1   1.4.1  .     2005-06-29
+      https://cif-dictionaries.iucr.org/cifdic/dic/ddl_core_1.4.1.dic .
+      dictionary
+      'DDL1 Non-relational dictionary definition language'
+  ddl_core   2.1.1   2.1.1  .     1995-09-26
+      https://cif-dictionaries.iucr.org/cifdic/dic/ddl2.c96 .
+      dictionary
+      'DDL2 Relational dictionary definition language'
+  ddl_core   2.1.3   2.1.3  .     2000-10-16
+      https://cif-dictionaries.iucr.org/cifdic/dic/ddl_core_2.1.3.dic .
+      dictionary
+      'DDL2 Relational dictionary definition language'
+  mmcif_ddl.dic   2.1.6   2.1.6  .     2004-04-15
+      https://cif-dictionaries.iucr.org/cifdic/dic/mmcif_ddl_2.1.6.dic .
+      dictionary
+      'DDL2 Relational dictionary definition language'
+
+  DDL_DIC   3.11.09   3.11.09  .     2015-05-07
+      https://cif-dictionaries.iucr.org/cifdic/dic/DDLm_3.11.09.dic .
+      dictionary
+      'DDLm Methods dictionary definition language'
+  DDL_DIC   3.14.0   3.14.0  .     2019-09-25
+      https://cif-dictionaries.iucr.org/cifdic/dic/DDLm_3.14.0.dic .
+      dictionary
+      'DDLm Methods dictionary definition language'
+  DDL_DIC   4.1.0   4.1.0  .     2023-01-13
+      https://cif-dictionaries.iucr.org/cifdic/dic/DDLm_4.1.0.dic
+      https://doi.org/10.1107/cifdic_000003
+      dictionary
+      'DDLm Methods dictionary definition language'
+  DDL_DIC   4.2.0   4.2.0  .     2026-07-01
+      https://cif-dictionaries.iucr.org/cifdic/dic/DDLm_4.2.0.dic
+      https://doi.org/10.1107/cifdic_000005
+      dictionary
+      'DDLm Methods dictionary definition language'
 ##############################################################################
 # Ancillary template files (for IMPORT into dictionaries)                    #
 ##############################################################################
-  templ_enum.cif   .   .  .     .
-      ftp://ftp.iucr.org/pub/cifdics/templ_enum.cif
+
+  COM_VAL   1.4.03   3.11.04  .     2014-06-09
+      https://cif-dictionaries.iucr.org/cifdic/dic/templ_enum_1.4.03.cif .
+      dictionary
       'commonly used enumeration value sets imported into CIF dictionaries'
-  templ_enum.cif   1.4.03   3.11.04  .     2014-06-09
-      ftp://ftp.iucr.org/pub/cifdics/templ_enum_1.4.03.cif
-      'commonly used enumeration value sets imported into CIF dictionaries'
-  templ_enum.cif   1.4.8   4.1.0  .     2023-05-14
-      ftp://ftp.iucr.org/pub/cifdics/templ_enum_1.4.8.cif
+  COM_VAL   1.4.8   4.1.0  .     2023-05-14
+      https://cif-dictionaries.iucr.org/cifdic/dic/templ_enum_1.4.8.cif .
+      dictionary
       'commonly used enumeration value sets imported into CIF dictionaries'
 
-  templ_attr.cif   .   .  .     .
-      ftp://ftp.iucr.org/pub/cifdics/templ_attr.cif
-      'commonly used definition attribute sets imported into CIF dictionaries'
-  templ_attr.cif   1.4.10   4.1.0  .     2023-01-13
-      ftp://ftp.iucr.org/pub/cifdics/templ_attr.cif
+  TEMPL_ATTR   1.4.10   4.1.0  .     2023-01-13
+      https://cif-dictionaries.iucr.org/cifdic/dic/templ_attr_1.4.10.cif .
+      dictionary
       'commonly used definition attribute sets imported into CIF dictionaries'
 ##############################################################################
 # Description of data items in the CIF dictionary register itself            #
 ##############################################################################
-  cif_register.dic   .   1.4  .     .
-      ftp://ftp.iucr.org/pub/cifdics/cif_register.dic
-      'Data items used within the register of published CIF dictionaries'
+
   cif_register.dic   1.0   1.4  .     2005-06-24
-      ftp://ftp.iucr.org/pub/cifdics/cif_register_1.0.dic
+      https://cif-dictionaries.iucr.org/cifdic/dic/cif_register_1.0.dic .
+      dictionary
       'Data items used within the register of published CIF dictionaries'
